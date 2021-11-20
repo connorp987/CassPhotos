@@ -2,9 +2,10 @@
 
 # dependencies
 /node_modules
+/photography
 /.pnp
 .pnp.js
-/src/media
+
 
 # testing
 /coverage
