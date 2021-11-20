@@ -83,10 +83,18 @@ const getOrientation = (w, h) => {
 const getSharpMeta = async img => {
     const image = sharp(img);
     const meta = await image.metadata();
+    let mw, mh
+    if (exif(meta.exif).image.Orientation == 6){
+        mw = meta.height
+        mh = meta.width
+    } else {
+        mw = meta.width
+        mh = meta.height
+    }
     return {
         format: meta.format,
-        width: meta.width,
-        height: meta.height,
+        width: mw,
+        height: mh,
         orientation: getOrientation(meta.width, meta.height),
         created: getFileCreatedDate(img),
         updated: getFileUpdatedDate(img),
