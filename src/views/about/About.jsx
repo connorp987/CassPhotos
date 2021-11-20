@@ -25,10 +25,10 @@ export default class About extends React.PureComponent {
                             About {config.title}
                         </Heading>
                     </div>
-                    <img className={styles.portrait} src="https://via.placeholder.com/1024x500?text=Your+face" alt="" />
+                    <img className={styles.portrait} src={require('./IMG_2292.jpg')} alt="" />
                     <div className={styles.copy}>
-                        <p>Thanks for checking out ReactPhoto - a simple React portfolio site, built for photographers.</p>
-                        <p>React is an incredible tool for building web applications, but it can be a little daunting, especially for those with limited programming experience. It's our hope that this site builder will make it painless for photographers looking to build a React portfolio to publish their work online.</p>
+                        <p>Hi i'm Cassidy and this is my photography collection.</p>
+                        <p>Hope you enjoy! :)</p>
                     </div>
                     <Social 
                         title={"Social"}

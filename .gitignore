@@ -2,10 +2,8 @@
 
 # dependencies
 /node_modules
-/photography
 /.pnp
 .pnp.js
-/src/data/data.json
 /src/media
 
 # testing
