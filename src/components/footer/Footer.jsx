@@ -15,11 +15,11 @@ export default class Footer extends React.PureComponent {
                     Powered by
                     {' '}
                     <a
-                        href="https://github.com/bryoz/reactphoto"
+                        href="https://github.com/connorp987/CassPhotos"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        ReactPhoto
+                        CassPhotos
                     </a>.
                 </p>
             </footer>
